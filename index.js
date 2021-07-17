@@ -1,7 +1,7 @@
-const AMOUNT_OF_DIVS = 10;
-const DIV_SIZE = 500;
+const AMOUNT_OF_DIVS = 500;
+const DIV_SIZE = 100;
 const REFRESH_TIME = 1000;
-const MARGIN = 2;
+const MARGIN = 10;
 
 function getRandomNumber(min = 0, max = 1) {
   const number = Math.random() * (max - min) + min;
